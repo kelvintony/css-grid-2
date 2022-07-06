@@ -1,0 +1,40 @@
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+.container div {
+	border-radius: 10px;
+	padding: 10px;
+}
+.title {
+	text-align: center;
+}
+.box-1 {
+	background-color: #4a82c0;
+	grid-column: 1/4;
+	grid-row: 1/2;
+}
+
+.box-2 {
+	background-color: #bbdddf;
+	grid-column: 1/2;
+	grid-row: 2/4;
+}
+
+.box-3 {
+	background-color: #4bb792;
+	grid-column: 2/4;
+	grid-row: 2/3;
+}
+
+.box-4 {
+	background-color: #f7ca66;
+}
+
+.box-5 {
+	background-color: #233249;
+}
